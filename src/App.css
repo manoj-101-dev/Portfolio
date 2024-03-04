@@ -1,0 +1,120 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Background styles */
+.app-background {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Light theme styles */
+body.dark {
+  background: radial-gradient(circle, #364663, #0e2c32);
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+body.dark .nav-links a {
+  color: white;
+}
+body.dark .navbar {
+  background: radial-gradient(circle, #253148, #0e2c32);
+  color: white;
+}
+body.dark .username {
+  color: white;
+}
+body.dark .nav-links a.active {
+  color: blue;
+}
+/* Dark theme styles */
+body {
+  background-color: #a6c0fe;
+  background: -webkit-linear-gradient(to right, #a6c0fe, #f0f8ff);
+  background: linear-gradient(to left, #a6c0fe, #dfeffc);
+}
+
+body .navbar {
+  background-color: #a6c0fe;
+  background: -webkit-linear-gradient(to right, #a6c0fe, #f0f8ff);
+  background: linear-gradient(to left, #a6c0fe, #dfeffc);
+}
+
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Avatar styles */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+.avatar:hover {
+  transform: scale(1.1);
+}
+
+/* Navigation links styles */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.nav-links a {
+  position: relative;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+.nav-links a:hover {
+  color: black;
+}
+.nav-links a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #025cf8;
+  transition: width 0.3s ease;
+}
+.nav-links a.active::before {
+  width: 100%;
+}
+.nav-links a:hover::before {
+  width: calc(100% - 40px);
+}
+
+@media screen and (max-width: 992px) {
+  .theme {
+    margin-left: 670px;
+  }
+}
+@media screen and (max-width: 792px) {
+  .theme {
+    margin-left: 500px;
+  }
+}

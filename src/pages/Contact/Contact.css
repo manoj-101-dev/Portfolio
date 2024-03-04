@@ -1,0 +1,33 @@
+/* Contact.css */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 90vh;
+}
+
+#msg-btn {
+  background-color: #007bff;
+  height: 50px;
+}
+
+#msg-btn:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 2700px) {
+  #msg-btn {
+    margin-left: 200px;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+}

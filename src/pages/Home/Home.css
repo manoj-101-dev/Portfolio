@@ -1,0 +1,174 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  height: 90vh;
+  margin-top: 70px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 700px;
+  padding: 20px;
+  margin: -150px;
+}
+
+.title1 {
+  display: inline-block;
+}
+
+.text-line {
+  margin: 5px 0;
+  font-family: "Arial", sans-serif;
+}
+/* 
+.gradient-text {
+  background: linear-gradient(135deg, #9103f0, #0066ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.gradient-text {
+  color: blue;
+  font-weight: bold;
+}
+
+.web-developer {
+  color: blue;
+  font-weight: bold;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(20) 1s 1 normal both,
+    blink-caret 1s step-end infinite;
+}
+
+.more-about-container {
+  display: flex;
+  align-items: center;
+}
+
+.more-about-me-button {
+  margin-right: 20px;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.linkedin-icon {
+  border-radius: 30%;
+  height: 50px;
+  width: 50px;
+}
+
+.github-icon {
+  border-radius: 30%;
+  height: 50px;
+  width: 50px;
+}
+
+@media (max-width: 4700px) {
+  .content {
+    margin-right: 40px;
+  }
+}
+
+.more-about-me-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s ease-in-out;
+}
+
+.more-about-me-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.more-about-me-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+.more-about-container {
+  display: flex;
+  align-items: center;
+}
+
+.more-about-me-button {
+  margin-right: 20px;
+}
+.profile-pic {
+  position: absolute;
+  right: 13%;
+  top: 32%;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; /* Add transitions for multiple properties */
+}
+
+.profile-pic:hover {
+  border-color: blue;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  transform: scale(1.05) !important;
+}
+
+/* Tablet and Mobile view */
+@media (max-width: 1200px) {
+  .profile-pic {
+    position: relative;
+    margin-top: -900px;
+    margin-left: 250px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .content {
+    margin-left: 80px;
+    width: 700px;
+    margin-bottom: -300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+
+    text-align: center;
+    margin-right: 400px;
+  }
+  .content {
+    margin-top: 50px;
+    width: 550px;
+  }
+}
