@@ -99,6 +99,7 @@ const Contact = () => {
           <Grid item>
             <Typography variant="h5">
               <img
+                className="email"
                 src={email}
                 alt="Email"
                 style={{ width: 40, height: 40, marginRight: 10 }}
