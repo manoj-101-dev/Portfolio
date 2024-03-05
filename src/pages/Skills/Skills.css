@@ -73,3 +73,8 @@
   border-radius: 6px;
   background-color: #4034ee;
 }
+@media screen and (max-width: 492px) {
+  .logo-container {
+    max-width: 135px;
+  }
+}
