@@ -24,7 +24,7 @@ const Project = () => {
         "A React web app for streamlined education management with attendance and task management, leave applications, and queries.",
       backendURL: "https://github.com/manoj-101-dev/Zen_Class_Backend.git",
       frontendURL: "https://github.com/manoj-101-dev/Zen_Class.git",
-      deployedURL: "https://zen-class.vercel.app/",
+      deployedURL: "https://zen-class-six.vercel.app/",
       imageUrl: ZenClass,
     },
     {
