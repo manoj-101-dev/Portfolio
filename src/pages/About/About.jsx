@@ -35,7 +35,7 @@ const About = () => {
               className="symbol"
               style={{ fontSize: "3rem", color: "#3498db" }}
             />{" "}
-            Education
+            Certification
           </Typography>
         </Zoom>
         <Slide in={true} direction="up" timeout={1600} data-aos="fade-up">
@@ -51,6 +51,13 @@ const About = () => {
             </Typography>
           </div>
         </Slide>
+        <Typography variant="h4" gutterBottom className="section-title">
+          <SchoolIcon
+            className="symbol"
+            style={{ fontSize: "3rem", color: "#3498db" }}
+          />{" "}
+          Education
+        </Typography>
 
         <Slide in={true} direction="up" timeout={1200} data-aos="fade-up">
           <div className="content-item">

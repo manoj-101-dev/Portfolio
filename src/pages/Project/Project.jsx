@@ -4,6 +4,7 @@ import AOS from "aos";
 import ZenClass from "../../logos/ZenClass.png";
 import health from "../../logos/health.png";
 import shopping from "../../logos/shopping.png";
+import movie from "../../logos/movie.png";
 import { Typography } from "@mui/material";
 import "./Project.css";
 
@@ -28,6 +29,15 @@ const Project = () => {
       imageUrl: ZenClass,
     },
     {
+      title: "Movie App",
+      description:
+        "This  Movie Booking Application, built using React and React Bootstrap. It provides a user-friendly interface for users to register, log in, view movies, and make bookings.",
+      backendURL: "https://github.com/manoj-101-dev/MovieApp-Server.git",
+      frontendURL: "https://github.com/manoj-101-dev/MovieApp.git",
+      deployedURL: "https://movie-app-eta-murex.vercel.app/",
+      imageUrl: movie,
+    },
+    {
       title: "Health-Record-Manager ",
       description:
         "The Health Record Manager is a web app for managing health records, with features for creating, editing, and viewing records, plus secure user authentication.",
@@ -40,10 +50,10 @@ const Project = () => {
     {
       title: "Shopping-cart",
       description:
-        "This React application is a simple shopping cart that displays a list of products and allows users to manage their cart items.",
-      backendURL: "https://github.com/manoj-101-dev/Shopping-cart.git",
-      frontendURL: "https://github.com/manoj-101-dev/Shopping-cart.git",
-      deployedURL: "https://shopping-cart-xi-azure.vercel.app/",
+        "Shopping Cart is a React-based shopping app where users can browse products, add items to their cart, and book with delivery details.",
+      backendURL: "https://github.com/manoj-101-dev/Ecommerce-Backend.git",
+      frontendURL: "https://github.com/manoj-101-dev/Ecommerce.git",
+      deployedURL: "https://ecommerce-sable-rho-90.vercel.app/",
       imageUrl: shopping,
     },
   ];

@@ -23,7 +23,7 @@ function NavBar() {
     { label: "Home", sectionId: "home" },
     { label: "Skills", sectionId: "skills" },
     { label: "Projects", sectionId: "projects" },
-    { label: "About", sectionId: "about" },
+    { label: "Education & experience", sectionId: "about" },
     { label: "Contact", sectionId: "contact" },
   ];
 
