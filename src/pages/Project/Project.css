@@ -6,16 +6,16 @@
 
 .project-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  gap: 20px; /* Reduce gap between columns */
-  justify-items: center; /* Centers items horizontally */
-  align-items: start; /* Aligns items vertically */
-  padding: 20px; /* Reduce padding around the grid */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: start;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
   .project-container {
-    grid-template-columns: 1fr; /* One column for smaller screens */
+    grid-template-columns: 1fr;
   }
 }
 
@@ -23,8 +23,8 @@
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   padding: 20px;
-  width: 100%; /* Ensures card takes full width of column */
-  max-width: 350px; /* Limits width of cards */
+  width: 100%;
+  max-width: 350px;
   opacity: 0;
   background-color: white;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
