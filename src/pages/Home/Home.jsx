@@ -23,8 +23,8 @@ const Home = () => {
 
   useEffect(() => {
     AOS.init({
-      once: true, // animate only once
-      duration: 1500, // animation duration
+      once: true,
+      duration: 1500,
     });
   }, []);
 
@@ -124,14 +124,12 @@ const Home = () => {
             data-aos="fade-up"
             data-aos-delay="600"
           >
-            As a Guvi learner, I've mastered{" "}
-            <span className="highlight">HTML, CSS, and JavaScript</span>, and
-            explored{" "}
-            <span className="highlight">React, MongoDB, and Node.js</span>.
-            Eager to apply these skills for{" "}
-            <span className="impactful">impactful web solutions</span>.
+            Driven by curiosity, I strive to craft intuitive web applications
+            that not only solve problems but also inspire users to explore new
+            possibilities in the digital realm.
           </p>
         </Typography>
+
         <div
           className="more-about-container"
           data-aos="fade-up"

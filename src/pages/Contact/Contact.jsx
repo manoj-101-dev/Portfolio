@@ -3,6 +3,8 @@ import { Container, Typography, TextField, Button, Grid } from "@mui/material";
 import phone from "../../logos/phone.png";
 import email from "../../logos/email.png";
 import head from "../../logos/head.png";
+import linkdin from "../../logos/linkdin.png";
+import github from "../../logos/github.png";
 import "./Contact.css";
 
 const Contact = () => {
@@ -106,6 +108,30 @@ const Contact = () => {
               />
               manoj19545@gmail.com
             </Typography>
+            <div className="icon-container">
+              <a
+                href="https://www.linkedin.com/in/manojk9545"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-aos="fade-up"
+                data-aos-delay="1000"
+              >
+                <img
+                  src={linkdin}
+                  alt="LinkedIn"
+                  className="icon linkedin-icon"
+                />
+              </a>
+              <a
+                href="https://github.com/manoj-101-dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-aos="fade-up"
+                data-aos-delay="1200"
+              >
+                <img src={github} alt="GitHub" className="icon github-icon" />
+              </a>
+            </div>
           </Grid>
         </Grid>
         {/* Form */}

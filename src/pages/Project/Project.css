@@ -24,7 +24,8 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   padding: 20px;
   width: 100%;
-  max-width: 350px;
+  max-width: 400px;
+
   opacity: 0;
   background-color: white;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;

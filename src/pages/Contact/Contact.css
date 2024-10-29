@@ -17,6 +17,11 @@
 #msg-btn:hover {
   background-color: #0056b3;
 }
+
+.icon-container {
+  margin-right: 40px;
+  margin-top: 10px;
+}
 @media (max-width: 2700px) {
   #msg-btn {
     margin-left: 200px;
