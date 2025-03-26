@@ -95,15 +95,15 @@ const About = () => {
         <Slide in={true} direction="up" timeout={2000} data-aos="fade-up">
           <div className="content-item">
             <Typography variant="h4" gutterBottom data-aos="fade-up">
-              Internship - UNO MINDA
+              Frontend Developer Intern – Parkqwik, Chennai
             </Typography>
             <Typography variant="body1" gutterBottom data-aos="fade-up">
-              Internship Period: 28-01-2023 to 10-02-2023
+              February 19, 2025 – Present
             </Typography>
             <Typography variant="body2" paragraph data-aos="fade-up">
-              Applied and honed skills in system configuration and workflow
-              analysis during an internship at UNO MINDA, gaining valuable
-              hands-on experience.
+              Learning React Native and implementing assigned tasks in mobile
+              app development. Assisting with UI implementation and basic
+              feature enhancements under team guidance.
             </Typography>
           </div>
         </Slide>
